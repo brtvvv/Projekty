@@ -1,9 +1,7 @@
 #Menu główne programu
-from cleaner import clean
 
 
 while True:
-    clean
     print("Kalkulator podatku VAT")
     print()
     print("Made by: Bartosz Ołka")
@@ -43,6 +41,7 @@ while True:
     if wybor == "3":
         break
 
+#niechciany znak        
     else:
         print()
         unknown = input("Niewlasciwa komenda, aby powrocic do menu nacisnij przycisk enter: ")
